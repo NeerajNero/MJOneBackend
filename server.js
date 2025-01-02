@@ -12,7 +12,7 @@ initializeDatabase()
 
 app.use(express.json())
 app.use(cors({
-    origin: 'https://mj-one-gules.vercel.app/'
+    origin: 'https://mj-one-gules.vercel.app'
 }))
 app.use('/product', productRoute)
 
